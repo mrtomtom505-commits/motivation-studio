@@ -10,7 +10,7 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-PEXELS_API_KEY = "Og5k6ZFpOQA7SqscR7eiV2UMbkhmuvpiB9CaS23P4GzpQCdltn77JMPa"
+PEXELS_API_KEY = os.getenv("Og5k6ZFpOQA7SqscR7eiV2UMbkhmuvpiB9CaS23P4GzpQCdltn77JMPa")
 VOICE = "en-US-AriaNeural"
 
 os.makedirs("videos", exist_ok=True)
@@ -45,12 +45,12 @@ is simple.
 
 The elite move anyway.
 
-They move when they don’t feel ready.
+They move when they donâ€™t feel ready.
 They move when it hurts.
 They move when motivation disappears.
 
-Because success isn’t built on hype.
-It’s built on discipline.
+Because success isnâ€™t built on hype.
+Itâ€™s built on discipline.
 
 Every silent sacrifice compounds.
 Every unseen effort stacks.
